@@ -1,0 +1,6 @@
+.posts{
+    flex: 9;
+    display: flex;  
+    flex-wrap: wrap; /* if children is bigger than parent it will show in horizontal manner */
+    margin: 20px;
+}

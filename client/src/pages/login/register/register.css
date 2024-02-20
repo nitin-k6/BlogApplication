@@ -1,0 +1,67 @@
+.register{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 50px);
+    justify-content: center;
+  /* background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("https://images.pexels.com/photos/257897/pexels-photo-257897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");  */
+  /* background: url("https://images.pexels.com/photos/265667/pexels-photo-265667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+  /* background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+  
+  background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("https://images.pexels.com/photos/374857/pexels-photo-374857.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  align-items: center;
+
+}
+
+.registerTitle{
+  font-size: 100px;
+}
+
+.registerform{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.registerform >label{
+  margin: 10px 0;
+}
+
+.registerInput{
+padding: 5px;
+
+}
+
+.registerButton{
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: lightcoral;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+
+.registerLogin{
+  cursor: pointer;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: teal;
+  padding: 6px;
+  color: white;
+
+}
+
+.emailregister{
+  font-size: 30px;
+  left: 10px;
+  color: black;
+
+}
+
+.passregister{
+  font-size:30px;
+}
+

@@ -1,0 +1,65 @@
+.top{
+    width: 100%;
+    height: 50px;
+    background-color:white;
+    position:sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family:'Josefin Sans', sans-serif;
+    z-index: 999; /* prevents overllaping of Blog App */
+}
+
+.topLeft, .topRight{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.topIcon{
+    font-size: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.topImg{
+    margin-top: 10px;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+object-fit: contain;
+cursor: pointer;
+}
+
+.topCenter{
+    flex:6;
+}
+
+.topList{
+    display:flex;
+    margin: 0;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+}
+
+.topListItem{
+    margin-right: 20px;
+    font-size:20px;
+}
+
+.topSearchIcon{
+    font-size: 25px;
+    color:rebeccapurple;
+    cursor:pointer;
+    margin-left: 15px;
+}
+
+.contact{
+    font-size: 25px;
+    display: block;
+    margin-right: 20px;
+    color:teal;
+}

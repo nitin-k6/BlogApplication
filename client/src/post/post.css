@@ -1,0 +1,56 @@
+ .blogImage{
+    width:100%; /*If width is more than 100% then overlapping when in flex wrap  */
+    height:350px;
+    object-fit: cover;
+    border-radius:7px;
+} 
+
+.post{
+    margin: 0px 25px 40px 25px;
+    width:385px;
+}
+
+.postInfo{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.postCat{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 17px;
+    color: #be9656;
+    line-height: 15px;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor:pointer;
+}
+.postTitle{
+    font-family: 'Josefin Sans', sans-serif ;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+    cursor:pointer;
+}
+
+.postTime{
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 16px;
+    color: grey;
+    margin-top: 5px;
+}
+
+.postDescription{
+    font-family:  'Varela Round', sans-serif;
+    font-size: 16px;
+    color:#444;
+    line-height: 24px;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis; /* for hiding content in ... */
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
